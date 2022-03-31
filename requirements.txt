@@ -1,5 +1,6 @@
 alabaster==0.7.12
 appdirs==1.4.4
+argparse==1.4.0
 astor==0.8.1
 atomicwrites==1.4.0
 attrs==21.4.0

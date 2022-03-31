@@ -15,6 +15,7 @@ from PIL import Image  # to load our image
 import numpy as np  # to get the color of our image
 from io import BytesIO
 import base64
+import argparse
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX])
@@ -356,4 +357,7 @@ def update_overall_sentiment(num, track_word):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p", "--port", type=int, default=8080)
+    args = parser.parse_args()
+    app.run_server( port=args.port, debug=True)
