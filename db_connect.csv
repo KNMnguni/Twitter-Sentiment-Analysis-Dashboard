@@ -1,5 +1,5 @@
 items,secret
-server,tcp:ndudataworks.database.windows.net
+server,tcp:{server name}.database.windows.net
 database,{database name}
 username,{username}
 password,{password}
