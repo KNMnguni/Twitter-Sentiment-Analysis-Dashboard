@@ -1,0 +1,5 @@
+items,secret
+server,tcp:{servername}.database.windows.net
+database,{databasename}
+username,{username}
+password,{password}
