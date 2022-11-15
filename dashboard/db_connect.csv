@@ -1,6 +1,5 @@
 items,secret
-server,tcp:ndudataworks.database.windows.net
-database,portfolioDB
-username,KNMnguni
-password,Horizon#1525
-driver,"{ODBC Driver 17 for SQL Server};Server=tcp:ndudataworks.database.windows.net,1433;Database=portfolioDB;Uid=KNMnguni;Pwd=Horizon#1525;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+server,tcp:{server name}.database.windows.net
+database,{database name}
+username,{username}
+password,{password}
